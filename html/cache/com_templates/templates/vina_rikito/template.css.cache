@@ -2718,7 +2718,7 @@ h3.vina-form-title {
   cursor: pointer;
   background: #f5f6f8;
   border: 1px solid #eaecef;
-  color: #f93162;
+  color: #2eb2ca;
   margin-top: 0;
   line-height: 14px;
   font-size: 14px;
@@ -2733,8 +2733,8 @@ h3.vina-form-title {
 #userForm button:hover,
 #paymentForm button:hover,
 #adminForm button:hover {
-  background: #f93162;
-  border-color: #f93162;
+  background: #2eb2ca;
+  border-color: #2eb2ca;
   color: #fff;
 }
 #userForm h3,
@@ -2793,7 +2793,7 @@ h3.vina-form-title {
   cursor: pointer;
   background: #f5f6f8;
   border: 1px solid #eaecef;
-  color: #f93162;
+  color: #2eb2ca;
   margin-top: 0;
   line-height: 14px;
   font-size: 14px;
@@ -2806,8 +2806,8 @@ h3.vina-form-title {
   transition: all 180ms ease-in;
 }
 #user-registration button:hover {
-  background: #f93162;
-  border-color: #f93162;
+  background: #2eb2ca;
+  border-color: #2eb2ca;
   color: #fff;
 }
 #user-registration .chzn-container-single .chzn-single {
@@ -3071,7 +3071,7 @@ div.order-view a.btn {
   cursor: pointer;
   background: #f5f6f8;
   border: 1px solid #eaecef;
-  color: #f93162;
+  color: #2eb2ca;
   margin-top: 0;
   line-height: 14px;
   font-size: 14px;
@@ -3111,8 +3111,8 @@ div.order-view button:hover,
 div.order-view a.btn-danger:hover,
 div.order-view input.button:hover,
 div.order-view a.btn:hover {
-  background: #f93162;
-  border-color: #f93162;
+  background: #2eb2ca;
+  border-color: #2eb2ca;
   color: #fff;
 }
 div.login a:hover,
@@ -3488,7 +3488,7 @@ div.virtuemart_search input.button:focus {
   cursor: pointer;
   background: #f5f6f8;
   border: 1px solid #eaecef;
-  color: #f93162;
+  color: #2eb2ca;
   margin-top: 0;
   line-height: 14px;
   font-size: 14px;
@@ -3501,8 +3501,8 @@ div.virtuemart_search input.button:focus {
   transition: all 180ms ease-in;
 }
 .vmshop-account.account-login .buttons-set .vina-button:hover {
-  background: #f93162;
-  border-color: #f93162;
+  background: #2eb2ca;
+  border-color: #2eb2ca;
   color: #fff;
 }
 #com-form-login input[type="text"],
@@ -3524,7 +3524,7 @@ div.virtuemart_search input.button:focus {
   cursor: pointer;
   background: #f5f6f8;
   border: 1px solid #eaecef;
-  color: #f93162;
+  color: #2eb2ca;
   margin-top: 0;
   line-height: 14px;
   font-size: 14px;
@@ -3537,8 +3537,8 @@ div.virtuemart_search input.button:focus {
   transition: all 180ms ease-in;
 }
 #com-form-login .vina-button:hover {
-  background: #f93162;
-  border-color: #f93162;
+  background: #2eb2ca;
+  border-color: #2eb2ca;
   color: #fff;
 }
 #com-form-login #com-form-login-remember {
@@ -9306,7 +9306,7 @@ div.order-view #com-form-order-submit {
   font-family: 'Open Sans', sans-serif;
 }
 .vina-popup .acymailing_form input.subbutton {
-  background: #f93162;
+  background: #2eb2ca;
   color: #fff;
   padding: 10px 20px;
   border: none;
@@ -10117,4 +10117,4 @@ div.order-view #com-form-order-submit {
     display: none !important;
   }
 }
-";s:5:"files";a:16:{s:62:"/var/www/html/templates/vina_rikito/less/legacy/bootstrap.less";i:1518289136;s:62:"/var/www/html/templates/vina_rikito/less/legacy/variables.less";i:1518289135;s:59:"/var/www/html/templates/vina_rikito/less/legacy/mixins.less";i:1518289134;s:57:"/var/www/html/templates/vina_rikito/less/legacy/grid.less";i:1518289137;s:58:"/var/www/html/templates/vina_rikito/less/legacy/forms.less";i:1518289134;s:58:"/var/www/html/templates/vina_rikito/less/legacy/wells.less";i:1518289136;s:62:"/var/www/html/templates/vina_rikito/less/legacy/accordion.less";i:1518289135;s:80:"/var/www/html/templates/vina_rikito/less/legacy/responsive-767px-max.joomla.less";i:1518289136;s:52:"/var/www/html/templates/vina_rikito/less/master.less";i:1518289014;s:55:"/var/www/html/templates/vina_rikito/less/variables.less";i:1518289012;s:52:"/var/www/html/templates/vina_rikito/less/mixins.less";i:1518289009;s:53:"/var/www/html/templates/vina_rikito/less/icomoon.less";i:1518289011;s:56:"/var/www/html/templates/vina_rikito/less/virtuemart.less";i:1518289008;s:50:"/var/www/html/templates/vina_rikito/less/menu.less";i:1518289011;s:51:"/var/www/html/templates/vina_rikito/less/theme.less";i:1518289015;s:56:"/var/www/html/templates/vina_rikito/less/responsive.less";i:1518289008;}s:7:"updated";i:1518331360;}
+";s:5:"files";a:16:{s:62:"/var/www/html/templates/vina_rikito/less/legacy/bootstrap.less";i:1518289136;s:62:"/var/www/html/templates/vina_rikito/less/legacy/variables.less";i:1518289135;s:59:"/var/www/html/templates/vina_rikito/less/legacy/mixins.less";i:1518289134;s:57:"/var/www/html/templates/vina_rikito/less/legacy/grid.less";i:1518289137;s:58:"/var/www/html/templates/vina_rikito/less/legacy/forms.less";i:1518289134;s:58:"/var/www/html/templates/vina_rikito/less/legacy/wells.less";i:1518289136;s:62:"/var/www/html/templates/vina_rikito/less/legacy/accordion.less";i:1518289135;s:80:"/var/www/html/templates/vina_rikito/less/legacy/responsive-767px-max.joomla.less";i:1518289136;s:52:"/var/www/html/templates/vina_rikito/less/master.less";i:1518289014;s:55:"/var/www/html/templates/vina_rikito/less/variables.less";i:1518289012;s:52:"/var/www/html/templates/vina_rikito/less/mixins.less";i:1518289009;s:53:"/var/www/html/templates/vina_rikito/less/icomoon.less";i:1518289011;s:56:"/var/www/html/templates/vina_rikito/less/virtuemart.less";i:1518289008;s:50:"/var/www/html/templates/vina_rikito/less/menu.less";i:1518289011;s:51:"/var/www/html/templates/vina_rikito/less/theme.less";i:1518289015;s:56:"/var/www/html/templates/vina_rikito/less/responsive.less";i:1518289008;}s:7:"updated";i:1518576715;}
