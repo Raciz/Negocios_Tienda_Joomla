@@ -1,0 +1,70 @@
+# Single Login module for Dolibarr
+# Copyright (C) 2012		Florian Henry			<florian.henry@open-concept.pro>
+#
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+#
+# Générique
+#
+
+# Module label 'ModuleXXXName'
+Module10055Name = Connexion unique par utilisateurs
+Module10055Desc = Activer le mode "Login Unique". Deux utilisateurs avec le même login ne peuvent être connecter en même temps.  
+
+#
+# Right
+#
+Permission100551 = Acces a la page de Débloquage de session
+
+
+#
+# Page d'administration
+#
+SLSetup = Configuration du module Connexion unique par utilisateurs
+Settings = Réglages
+SLSetupPage = Page de réglage de Connexion unique par utilisateurs
+SLKillSession=Gestion des sessions
+SLMailAdminMandatory=L'utilisateur administrateur de session doit avoir un mail configuré
+SLTimeOut=Temps limite d'une session
+SLTimeOutHelp=Si l'utilisateur 1 reste sans activité sur dolibarr pendant ce temps (exprimer en minutes), un utilisateur 2 (avec le même login pourra se connecté
+SLMinutes=Minutes
+SLAdminUser=Utilisateur non soumis au controle de session unique par login
+SLUseSuperUser=Utiliser la fonctionalité de "Utilisateur non soumis au controle de session unique par login"
+SLUseSuperUserHelp=Si cette option n'est pas activé tout les utilisateurs avec le droit "Acces a la page de Débloquage de session" ne seront pas soumis au controle de session unique par login
+SLErrContactAdminMess=Message affiché lors de l'impossibilité de se connecté
+SLErrContactAdminMessHelp=MAILADMIN sera remplacer par le mail de  l' "Utilisateur non soumis au controle de session unique par login" si cette option est activé
+
+
+#
+# Page À propos
+#
+About = À propos
+SLAbout = À propos de Connexion unique par utilisateurs
+SLAboutPage = Page à propos de Connexion unique par utilisateurs
+
+#
+# Login message
+#
+SLErrContactAdmin=Un autre utilisateur est déja connecter avec ce login. Si c'est une erreur contacter <b>MAILADMIN</b> pour dévérouiller la session.
+SLUserAdmin = votre administrateur
+
+#
+# Kill session
+#
+SLUserLogin=Login utilisateur
+SLLoginTime=Date de connection
+SLLastAction=Derniéres action
+SLUnlock=Débloquer
+SLUnlockSession=Etes vous sure de vouloir supprimer la session ?
+SLConfirmDelete=Session supprimer avec succées

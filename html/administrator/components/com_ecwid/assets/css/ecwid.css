@@ -1,0 +1,358 @@
+/* 2.5 overrides */
+
+.ecwid-settings fieldset input,
+.ecwid-settings fieldset textarea,
+.ecwid-settings fieldset select,
+.ecwid-settings fieldset img,
+.ecwid-settings fieldset button,
+.ecwid-settings fieldset label {
+    float: none;
+    margin: 0px;
+}
+
+/* END 2.5 overrides */
+
+.com_ecwid #j-sidebar-container {
+    margin-left: 5px;
+}
+
+.com_ecwid #j-main-container .ecwid-settings {
+    margin-top: 10px;
+}
+
+#j-main-container h2 {
+    padding-left: 15px;
+}
+
+.pure-form.ecwid-settings {
+	width: 590px;
+}
+
+.pure-form.ecwid-settings fieldset {
+	font-size: 14px;
+}
+
+.pure-form.ecwid-settings fieldset > :not(legend) {
+	margin-left:14px;
+}
+
+.pure-form.ecwid-settings .pure-button {
+	height: auto;
+	line-height: 32px;
+	padding: 0px 20px;
+	font-size: 14px;
+	background-image: none;
+	background-color: #f6f6f6;
+	font-weight: normal;
+	color: #333333;
+	border: 1px solid #cccccc;
+	border-radius: 3px;
+}
+
+.pure-form.ecwid-settings .pure-button-secondary {
+	font-weight: bold;
+	color: #246fba;
+}
+
+.pure-form.ecwid-settings a.pure-button:not(.pure-button-primary):hover {
+	border-color: #137ebe;
+	color: #137ebe;
+}
+
+.pure-form.ecwid-settings .pure-button.pure-button-primary {
+	color: white;
+	font-weight: normal;
+	border-color: #189DEE;
+	background-color: #189DEE;
+}
+
+.pure-form.ecwid-settings .pure-button.pure-button-primary:hover {
+	border-color: #137ebe;
+	background-color: #137ebe;
+}
+
+.pure-form.ecwid-settings .link {
+	border: 0px none;
+	background: transparent;
+	box-shadow: none;
+}
+
+.pure-form.ecwid-settings a:hover {
+    text-decoration: none;
+}
+
+.pure-control-group.small-input > div {
+	display: table-cell;
+	vertical-align: middle;
+	position: relative;
+}
+
+.pure-control-group .label {
+	width: 290px;
+	background: transparent;
+	color: #444;
+	white-space: normal;
+    text-shadow: none;
+    display: inline-block;
+    padding-left: 0px;
+}
+
+.pure-form .pure-control-group label {
+    margin: 8px 5px 8px 0px;
+    font-size: 14px;
+    width: 290px;
+    text-align: left;
+}
+
+.pure-control-group.small-input .input > div {
+	width: 45px;
+	text-align: center;
+	vertical-align: middle;
+	z-index: 10;
+	position: relative;
+	left: 300px;
+}
+
+.pure-control-group.small-input .input input {
+	margin: 0px auto;
+}
+
+.pure-control-group.small-input .label > * {
+	position: relative;
+	left: -45px;
+}
+
+.ecwid-settings .pure-control-group {
+	margin-bottom: 19px;
+}
+
+.ecwid-settings legend {
+	margin-bottom: 10px;
+}
+
+.ecwid-settings hr {
+	margin-left: 0px;
+	border: 0px none;
+	height: 1px;
+	background: #e5e5e5;
+	margin-bottom: 20px;
+}
+
+.ecwid-settings .warning {
+	background: #FFF797;
+	font-size: 12px;
+	padding: 8px 14px 8px 14px;
+	font-weight: bold;
+	color: #444444;
+}
+
+.pure-form.ecwid-settings input,
+.pure-form.ecwid-settings select {
+    margin-bottom: 0px;
+}
+
+.ecwid-settings.appearance-settings h3 {
+	font-size: 12px;
+}
+
+.ecwid-settings.appearance-settings input[type=text] {
+	padding: 5px 3px 4px 3px;
+	outline-offset: 0px;
+}
+
+.ecwid-settings .small-input input[type=text] {
+	width: 27px;
+	text-align: center;
+}
+
+.ecwid-settings select {
+	padding: 5px;
+}
+
+.ecwid-settings.advanced-settings .pure-control-group {
+	margin-bottom: 20px;
+}
+
+.ecwid-settings.advanced-settings .pure-control-group.last {
+	margin-bottom: 0px;
+}
+
+.ecwid-settings.advanced-settings input,
+.ecwid-settings.advanced-settings select
+{
+	width: 160px;
+	height: 25px;
+	margin-right: 15px;
+}
+
+.ecwid-settings.advanced-settings .note {
+	margin-top: 15px;
+    margin-left: 5px;
+}
+
+.ecwid-settings .note.inline-note {
+	max-width: 300px;
+	margin-left: 15px;
+	vertical-align: middle;
+}
+
+.general-settings {
+	font-size: 14px;
+	max-width: 750px;
+}
+
+.general-settings .greeting-box {
+	height: 141px;
+	padding-bottom: 12px;
+}
+
+.general-settings .greeting-box .image-container {
+	padding-right: 20px;
+}
+
+.general-settings .greeting-box > div {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.general-settings .greeting-box .main-message {
+	font-size: 22px;
+	font-weight: bold;
+	line-height: 22px;
+}
+
+.general-settings .greeting-box .secondary-message {
+	font-size: 17px;
+	padding-top: 13px;
+	line-height: 23px;
+}
+
+.general-settings ol {
+	margin-top: 30px;
+	list-style-position: inside;
+}
+
+.general-settings ol li {
+	font-size: 20px;
+	margin-bottom: 34px;
+	font-weight: bold;
+	padding-top: 10px;
+}
+
+.general-settings ol li * {
+	color: #333333;
+	font-size:13px;
+	font-weight: normal;
+}
+
+.general-settings ol li h4 {
+	font-size: 20px;
+	font-weight: bold;
+	margin: 0px 0px 12px;
+	display: inline-block;
+}
+
+.general-settings .ecwid-account-buttons .pure-button {
+	margin: 5px 17px 5px 0px;
+}
+
+.general-settings .ecwid-account-buttons {
+	padding: 20px 0px;
+	margin-bottom: -5px;
+}
+
+.ecwid-settings .note {
+	font-size: 12px;
+	color: #A0A0A0;
+	display: inline-block;
+	line-height: 16px;
+}
+.ecwid-settings.general-settings .note {
+    font-size: 12px;
+}
+
+.pure-form.ecwid-settings.general-settings input[type=text] {
+    font-size: 16px;
+    height: 34px;
+}
+
+.general-settings .find-store-id-in-cp {
+	line-height: 18px;
+	margin-bottom: 15px;
+}
+
+.general-settings .find-store-id-in-cp em {
+	color: #246fba;
+	font-style: normal;
+}
+
+.general-settings #ecwid_store_id {
+	position: relative;
+	top: 2px;
+	width: 153px;
+}
+
+.general-settings .section {
+	line-height: 24px;
+	height: 80px;
+	display: table;
+	vertical-align: middle;
+	width: 590px;
+}
+
+.general-settings .section .left {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.general-settings .section .right {
+	display: table-cell;
+	vertical-align: middle;
+	text-align: right;
+}
+
+.general-settings .section.small-text {
+	line-height: normal;
+}
+
+
+.general-settings .section .left-section {
+	float: left;
+}
+
+.general-settings .section .main-info {
+	font-size: 18px;
+}
+
+.general-settings .section .secondary-info {
+	font-size: 12px;
+	line-height: 20px;
+}
+
+.ecwid-settings .note.grayed-links,
+.ecwid-settings .note.grayed-links a:not(:hover)
+{
+	color: #A0A0A0;
+	margin-top:10px;
+	margin-bottom: 10px;
+}
+
+.ecwid-settings .help {
+    margin-top: 10px;
+}
+.ecwid-settings .credits {
+    margin-top: 20px;
+    font-size: 12px;
+}
+
+.ecwid-settings .credits a {
+    text-decoration: underline;
+}
+
+.ecwid-settings .note.grayed-links a {
+    text-decoration: underline;
+}
+
+.ecwid-settings .greeting-image {
+    width: 142px;
+}

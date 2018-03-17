@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<extension group="system" method="upgrade" type="plugin" version="2.5">
+    <name>System - Ecwid</name>
+    <creationDate>Jan 31, 2018</creationDate>
+    <author>Ecwid, Inc</author>
+    <authorEmail>support@ecwid.com</authorEmail>
+    <authorUrl>http://www.ecwid.com</authorUrl>
+    <copyright>(C) 2009 - 2017 Ecwid, Inc.</copyright>
+    <license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+    <version>3.3</version>
+    <description>Support Plugin for Ecwid</description>
+    <files>
+        <filename>index.html</filename>
+        <filename plugin="ecwid">ecwid.php</filename>
+    </files>
+    <config/>
+</extension>

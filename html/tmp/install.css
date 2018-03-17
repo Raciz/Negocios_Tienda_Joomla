@@ -1,0 +1,99 @@
+body table.adminform {
+	width: 100%;
+}
+
+body table.adminform th {
+	text-align:center !important;
+	font-size:18px;
+	padding-bottom:20px;
+	color:#555;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", sans-serif;
+	font-weight: 300;
+}
+
+#rokinstall-status {
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", sans-serif;
+	font-weight: 300;
+	font-size:14px;
+	color:#fff;
+	padding: 25px 25px 10px 25px;
+	border:1px solid #ddd;
+	background:#f9f9f9;
+	border-radius:4px
+}
+
+#rokinstall-status li {
+	border-radius:4px;
+	margin-bottom:15px;
+	padding: 10px;
+}
+
+.rokinstall-icon > span {
+	display:block;
+	width:32px;
+	height:32px
+}
+
+#rokinstall-status .rokinstall-row {
+	display:block;
+	margin-left: 55px;
+}
+
+.rokinstall-icon {
+	display:block;
+	float:left;
+	vertical-align: middle;
+	background-repeat:no-repeat;
+	height:32px;
+	width:32px;
+	margin-left: 10px;
+	margin-top: -6px;
+}
+
+#rokinstall-status {
+	list-style:none
+}
+
+
+
+
+/* SUCCESS */
+.rokinstall-success {
+	background:#7db947
+}
+
+.rokinstall-success .rokinstall-icon > span {
+	background-position:3px 6px
+}
+
+#rokinstall-status {
+	list-style:none
+}
+
+/* UPDATE */
+.rokinstall-update {
+	background:#0088CC
+}
+
+.rokinstall-update .rokinstall-icon > span {
+	background-position:3px -29px
+}
+
+/* FAILURE */
+.rokinstall-failure {
+	background:#c93130;
+}
+
+.rokinstall-failure .rokinstall-icon > span {
+	background-position:3px -64px
+}
+
+.rokinstall-failure .rokinstall-errormsg {
+	text-indent:0;
+	margin-left:55px;
+	display:block;
+	color:#eee;
+	font-weight: normal;
+	font-size: 13px;
+
+}

@@ -1,0 +1,143 @@
+.ecwid-settings.appearance-settings .products-per-page-label {
+	padding-top: 5px;
+	padding-bottom: 15px;
+	display: block;
+}
+
+.ecwid-settings.appearance-settings input[type=checkbox] {
+	margin-right: 3px;
+	margin-left: 7px;
+}
+
+.ecwid-settings .ecwid-pb-view-size {
+	display: inline-block;
+	position: relative;
+	width: 153px;
+	height: 153px;
+	margin-left: 20px;
+	margin-right: 15px;
+}
+
+.ecwid-settings .ecwid-pb-view-size input {
+	width: 27px;
+	text-align: center;
+}
+
+.appearance-settings .note {
+    font-size: 11px;
+}
+
+.appearance-settings .note.wide-note {
+	display: block;
+}
+
+.ecwid-settings .note.pb-note {
+    margin-right: 30px;
+    margin-left: 30px;
+    font-size: 12px;
+}
+
+.appearance-settings .small-number {
+    height: auto;
+    line-height: normal;
+    margin-bottom: inherit;
+}
+
+.ecwid-settings.appearance-settings input.small-number {
+    font-size: 13px;
+    z-index: 1;
+    position: relative;
+}
+
+.ecwid-pb-view-size .title {
+	margin: 8px;
+	width: 110px;
+	text-align: center;
+}
+
+.ecwid-pb-view-size * {
+	transition: background-image .3s, border-color .3s, font-weight .3s;
+}
+
+
+.ecwid-pb-view-size .main-area {
+	width: 116px;
+	height: 82px;
+	border: 2px solid rgb(125, 209, 227);
+	border-color: rgba(125, 209, 227, .5);
+	border-radius: 2px;
+	float: left;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	text-align: center;
+}
+
+.ecwid-pb-view-size .main-area svg {
+	margin-top: 7px;
+}
+
+.ecwid-pb-view-size .main-area path,
+.ecwid-pb-view-size .main-area rect {
+	fill: rgb(125, 209, 227);
+}
+
+.ecwid-pb-view-size .fallback-image {
+	width: 100px;
+	height: 66px;
+	background-repeat: no-repeat;
+	margin-top:7px;
+	margin-left:8px;
+}
+
+.ecwid-pb-view-size .grid-image {
+	background-image: url(../images/grid.png);
+}
+
+.ecwid-pb-view-size .list-image {
+	background-image: url(../images/list.png);
+}
+
+.ecwid-pb-view-size .table-image {
+	background-image: url(../images/table.png);
+}
+
+.ecwid-pb-view-size .right {
+	height:86px;
+	float: right;
+	position: relative;
+}
+
+.ecwid-pb-view-size .right input
+{
+	margin-top: 30px;
+}
+
+.ecwid-pb-view-size .bottom input
+{
+	margin-left: 48px;
+}
+
+.ecwid-pb-view-size .bottom {
+	width: 120px;
+	margin-top: 8px;
+	position: absolute;
+	top: 117px;
+}
+
+.ecwid-pb-view-size .ruler {
+	position: absolute;
+	background: #cccccc;
+	z-index: 0;
+}
+
+.ecwid-pb-view-size .right .ruler {
+	width: 1px;
+	height: 100%;
+	right: 13px;
+}
+
+.ecwid-pb-view-size .bottom .ruler {
+	width: 100%;
+	height: 1px;
+	bottom: 12px;
+}

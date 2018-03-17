@@ -1,0 +1,14 @@
+.ecwid-settings.general-settings button {
+    position: relative;
+    top: 2px;
+    padding: 5px 31px 5px 31px;
+    margin-left: 5px;
+}
+
+.ecwid-settings.general-settings hr {
+    margin-bottom: 6px;
+}
+
+.general-settings p.note {
+    margin-top: 10px;
+}

@@ -1,0 +1,27 @@
+#ecwid-vote-message {
+    position: relative;
+}
+
+#ecwid-vote-message #ecwid-vote-text {
+    display: block;
+    margin-bottom: 15px;
+}
+
+#ecwid-vote-message #ecwid-vote-hide {
+    position: absolute;
+    right: 0px;
+    color: #8b8b8b;
+    line-height: 18px;
+    padding: 4px 0px;
+}
+
+@media screen and (max-width:600px) {
+    #ecwid-vote-button {
+        width:100%;
+    }
+
+    #ecwid-vote-message #ecwid-vote-hide {
+        position: inherit;
+        right: auto;
+    }
+}

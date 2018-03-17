@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+    <fieldset name="params">
+
+	    <field name="displaySearch" type="checkbox"
+               default="1" value="1" label="COM_ECWID_APPEARANCE_DISPLAY_SEARCH_LABEL" />
+
+        <field name="displayCategories" type="checkbox"
+               default="1" value="1" label="COM_ECWID_APPEARANCE_DISPLAY_CATEGORIES_LABEL" />
+
+        <field name="enableChameleon" type="checkbox"
+               default="0" value="0" label="COM_ECWID_APPEARANCE_ENABLE_CHAMELEON_LABEL" />
+
+        <field name="categoriesPerRow" type="text"
+               default="3" label="COM_ECWID_APPEARANCE_CATEGORIESPERROW_LABEL"
+               class="small-number" />
+
+        <field name="gridRows" type="text"
+               default="20" label="COM_ECWID_APPEARANCE_GRID_ROWS_LABEL"
+               class="small-number" />
+
+
+        <field name="gridColumns" type="text"
+               default="3" label="COM_ECWID_APPEARANCE_GRID_COLUMNS_LABEL"
+               class="small-number" />
+
+        <field name="list" type="text"
+               default="60" label="COM_ECWID_APPEARANCE_LIST_LABEL"
+               class="small-number" />
+
+        <field name="table" type="text"
+               default="60" label="COM_ECWID_APPEARANCE_TABLE_LABEL"
+               class="small-number" />
+            
+        <field name="categoryView" type="list" default="grid" label="COM_ECWID_APPEARANCE_CATEGORYVIEW_LABEL">
+            <option value="grid">COM_ECWID_APPEARANCE_GRID</option>
+            <option value="list">COM_ECWID_APPEARANCE_LIST</option>
+            <option value="table">COM_ECWID_APPEARANCE_TABLE</option>
+        </field>
+
+        <field name="searchView" type="list" default="list" label="COM_ECWID_APPEARANCE_SEARCHVIEW_LABEL">
+            <option value="grid">COM_ECWID_APPEARANCE_GRID</option>
+            <option value="list">COM_ECWID_APPEARANCE_LIST</option>
+            <option value="table">COM_ECWID_APPEARANCE_TABLE</option>
+        </field>
+    </fieldset>
+</form>

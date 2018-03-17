@@ -1,0 +1,8 @@
+.pure-form.ecwid-settings fieldset p {
+    margin-left: 24px;
+}
+
+.ecwid-settings .pure-control-group.store-id button {
+    position: relative;
+    top: 2px;
+}

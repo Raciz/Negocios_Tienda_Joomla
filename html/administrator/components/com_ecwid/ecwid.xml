@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<extension method="upgrade" type="component" version="2.5">
+    <name>Ecwid</name>
+    <creationDate>Jan 31, 2018</creationDate>
+    <author>Ecwid, Inc</author>
+    <authorEmail>support@ecwid.com</authorEmail>
+    <authorUrl>http://www.ecwid.com</authorUrl>
+    <copyright>(C) 2009 - 2017 Ecwid, Inc.</copyright>
+    <license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+    <version>3.3</version>
+    <description>
+        Ecwid offers the performance and flexibility you need, with none of the hassles you don't.
+    </description>
+    <scriptfile>script.php</scriptfile>
+    
+    <!-- user part -->
+    <files folder="site">
+        <folder>assets</folder>
+        <folder>helpers</folder>
+        <folder>views</folder>
+        <folder>models</folder>
+        <filename>controller.php</filename>
+        <filename>index.html</filename>
+        <filename>ecwid.php</filename>
+	<filename>router.php</filename>
+    </files>
+
+    <!-- administration part -->
+    <administration>
+        <menu img="components/com_ecwid/assets/images/ecwid_16.png">COM_ECWID</menu>
+	<submenu>
+		<menu link="option=com_ecwid">COM_ECWID_GENERAL_SETTINGS</menu>
+		<menu link="option=com_ecwid&amp;layout=appearance">COM_ECWID_APPEARANCE_SETTINGS</menu>
+		<menu link="option=com_ecwid&amp;layout=advanced">COM_ECWID_ADVANCED_SETTINGS</menu>
+	</submenu>
+
+        <files folder="admin">
+            <folder>assets</folder>
+            <folder>helpers</folder>
+            <folder>views</folder>
+            <filename>controller.php</filename>
+            <folder>language</folder>
+            <folder>controllers</folder>
+            <filename>index.html</filename>
+            <filename>ecwid.php</filename>
+            <folder>models</folder>
+        </files>
+        
+        <!-- Administration Language File Copy Section -->
+        <languages folder="admin/language/en-GB">
+            <language tag="en-GB">en-GB.com_ecwid.ini</language>
+            <language tag="en-GB">en-GB.com_ecwid.sys.ini</language>
+        </languages>
+    
+    </administration>
+</extension>

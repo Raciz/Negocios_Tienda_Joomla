@@ -1,0 +1,14 @@
+--------------------------------------------------------------
+English SingleLogin ChangeLog
+--------------------------------------------------------------
+
+***** ChangeLog for 1.9 compared to 1.8 *****
+NEW : usefull for dolibarr 4.0
+
+***** ChangeLog for 1.8 compared to 1.2 *****
+NEW : usefull for dolibarr 3.6
+
+
+***** ChangeLog for 1.2 compared to 1.1 *****
+For all:
+	- Fix bug on ajax call disbled if this module is enbled 

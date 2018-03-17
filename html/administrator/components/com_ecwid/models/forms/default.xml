@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+    <fieldset name="params">
+        <field name="storeID" type="text"
+               default="" label="COM_ECWID_FORM_DEFAULT_STOREID_LABEL"
+               description="COM_ECWID_FORM_DEFAULT_STOREID_DESC" />
+        <field name="withMicrodata" type="text"
+               default="" label="COM_ECWID_FORM_DEFAULT_WITH_MICRODATA_LABEL"
+               description="COM_ECWID_FORM_DEFAULT_WITH_MICRODATA_DESC" />
+    </fieldset>
+</form>

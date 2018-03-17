@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<extension type="package" version="2.5">
+    <name>Ecwid shopping cart package</name>
+    <creationDate>Jan 31, 2018</creationDate>
+    <author>Ecwid, Inc</author>
+    <authorEmail>support@ecwid.com</authorEmail>
+    <authorUrl>http://www.ecwid.com</authorUrl>
+    <copyright>(C) 2009 - 2017 Ecwid, Inc.</copyright>
+    <license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+    <version>3.3</version>
+    <packagename>ecwid</packagename>
+    <packager>Ecwid, Inc</packager>
+    <description>Ecwid Shopping Cart Extensions Package</description>
+    <updateservers>
+        <server type="extension" name="Ecwid Update Server" priority="1">http://plugins.ecwid.com/update-joomla.xml</server>
+    </updateservers>
+    <files folder="packages">
+        <file type="component" id="com_ecwid">com_ecwid.zip</file>
+        <file type="module" id="mod_ecwid_categories" client="site">mod_ecwid_categories.zip</file>
+        <file type="module" id="mod_ecwid_minicart" client="site">mod_ecwid_minicart.zip</file>
+        <file type="module" id="mod_ecwid_search" client="site">mod_ecwid_search.zip</file>
+        <file type="plugin" id="ecwid" group="system">plg_sys_ecwid.zip</file>
+    </files>
+</extension>

@@ -1,0 +1,1 @@
+<?php die("Access Denied"); ?>#x#a:2:{s:6:"output";s:0:"";s:6:"result";a:3:{i:0;O:8:"stdClass":2:{s:7:"mf_name";s:4:"Acer";s:26:"virtuemart_manufacturer_id";s:2:"21";}i:1;O:8:"stdClass":2:{s:7:"mf_name";s:2:"HP";s:26:"virtuemart_manufacturer_id";s:2:"23";}i:2;O:8:"stdClass":2:{s:7:"mf_name";s:6:"Lenovo";s:26:"virtuemart_manufacturer_id";s:2:"22";}}}

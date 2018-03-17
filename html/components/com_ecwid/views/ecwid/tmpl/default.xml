@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+    <layout title="COM_ECWID_ECWID_VIEW_DEFAULT_TITLE" option="COM_ECWID_ECWID_VIEW_DEFAULT_OPTION">
+        <message>
+            <![CDATA[COM_ECWID_ECWID_VIEW_DEFAULT_DESC]]>
+        </message>
+    </layout>
+
+    <fields name="params" addfieldpath="/components/com_ecwid/models/fields">
+        <fieldset name="ecwidBasic" label="COM_ECWID_BASIC_FIELDSET_LABEL">
+            <field name="storeID" type="StoreIdForMenuItem" label="COM_ECWID_GENERAL_STORE_ID" />
+
+            <field name="categoriesPerRow" type="text"
+                   label="COM_ECWID_APPEARANCE_CATEGORIESPERROW_LABEL" />
+
+            <field name="defaultCategory" type="text"
+                   label="COM_ECWID_ADVANCED_DEFAULT_CATEGORY_ID_LABEL" default="0" />
+
+            <field name="categoryView" type="list" label="COM_ECWID_APPEARANCE_CATEGORYVIEW_LABEL">
+                <option value="">COM_ECWID_USE_DEFAULT</option>
+                <option value="grid">COM_ECWID_APPEARANCE_GRID</option>
+                <option value="list">COM_ECWID_APPEARANCE_LIST</option>
+                <option value="table">COM_ECWID_APPEARANCE_TABLE</option>
+            </field>
+
+            <field name="searchView" type="list" label="COM_ECWID_APPEARANCE_SEARCHVIEW_LABEL">
+                <option value="">COM_ECWID_USE_DEFAULT</option>
+                <option value="grid">COM_ECWID_APPEARANCE_GRID</option>
+                <option value="list">COM_ECWID_APPEARANCE_LIST</option>
+                <option value="table">COM_ECWID_APPEARANCE_TABLE</option>
+            </field>
+
+            <field name="gridRows" type="text"
+                   label="COM_ECWID_APPEARANCE_GRID_ROWS" />
+
+            <field name="gridColumns" type="text"
+                   label="COM_ECWID_APPEARANCE_GRID_COLUMNS" />
+
+            <field name="list" type="text"
+                   label="COM_ECWID_APPEARANCE_LIST" />
+
+            <field name="table" type="text"
+                   label="COM_ECWID_APPEARANCE_TABLE" />
+
+            <field name="ssoKey" type="text"
+                   label="COM_ECWID_ADVANCED_SSO_KEY_LABEL" />
+
+        </fieldset>
+    </fields>
+</metadata>

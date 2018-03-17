@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<extension client="site" method="upgrade" type="module" version="2.5">
+    <name>Ecwid Categories Module</name>
+    <creationDate>Jan 31, 2018</creationDate>
+    <author>Ecwid, Inc</author>
+    <authorEmail>support@ecwid.com</authorEmail>
+    <authorUrl>http://www.ecwid.com</authorUrl>
+    <copyright>(C) 2009 - 2017 Ecwid, Inc.</copyright>
+    <license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+    <version>3.3</version>
+    <description>Module to show the Ecwid store categories</description>
+    <files>
+        <filename>index.html</filename>
+        <filename module="mod_ecwid_categories">mod_ecwid_categories.php</filename>
+    </files>
+    <config>
+        <fields name="params">
+            <fieldset name="basic">
+                <field default="xVCategories" description="" label="Layout of Product Categories" name="categoryLayout" type="list">
+                    <option value="xVCategories">Vertical</option>
+                    <option value="xCategories">Horizontal</option>
+                </field>
+                <fieldset name="advanced">
+
+                    <field description="COM_MODULES_FIELD_MODULECLASS_SFX_DESC" label="COM_MODULES_FIELD_MODULECLASS_SFX_LABEL" name="moduleclass_sfx" type="text"/>
+                </fieldset>
+            </fieldset>
+        </fields>
+    </config>
+</extension>

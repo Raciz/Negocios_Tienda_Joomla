@@ -2718,7 +2718,7 @@ h3.vina-form-title {
   cursor: pointer;
   background: #f5f6f8;
   border: 1px solid #eaecef;
-  color: #2eb2ca;
+  color: #f93162;
   margin-top: 0;
   line-height: 14px;
   font-size: 14px;
@@ -2733,8 +2733,8 @@ h3.vina-form-title {
 #userForm button:hover,
 #paymentForm button:hover,
 #adminForm button:hover {
-  background: #2eb2ca;
-  border-color: #2eb2ca;
+  background: #f93162;
+  border-color: #f93162;
   color: #fff;
 }
 #userForm h3,
@@ -2793,7 +2793,7 @@ h3.vina-form-title {
   cursor: pointer;
   background: #f5f6f8;
   border: 1px solid #eaecef;
-  color: #2eb2ca;
+  color: #f93162;
   margin-top: 0;
   line-height: 14px;
   font-size: 14px;
@@ -2806,8 +2806,8 @@ h3.vina-form-title {
   transition: all 180ms ease-in;
 }
 #user-registration button:hover {
-  background: #2eb2ca;
-  border-color: #2eb2ca;
+  background: #f93162;
+  border-color: #f93162;
   color: #fff;
 }
 #user-registration .chzn-container-single .chzn-single {
@@ -3071,7 +3071,7 @@ div.order-view a.btn {
   cursor: pointer;
   background: #f5f6f8;
   border: 1px solid #eaecef;
-  color: #2eb2ca;
+  color: #f93162;
   margin-top: 0;
   line-height: 14px;
   font-size: 14px;
@@ -3111,8 +3111,8 @@ div.order-view button:hover,
 div.order-view a.btn-danger:hover,
 div.order-view input.button:hover,
 div.order-view a.btn:hover {
-  background: #2eb2ca;
-  border-color: #2eb2ca;
+  background: #f93162;
+  border-color: #f93162;
   color: #fff;
 }
 div.login a:hover,
@@ -3488,7 +3488,7 @@ div.virtuemart_search input.button:focus {
   cursor: pointer;
   background: #f5f6f8;
   border: 1px solid #eaecef;
-  color: #2eb2ca;
+  color: #f93162;
   margin-top: 0;
   line-height: 14px;
   font-size: 14px;
@@ -3501,8 +3501,8 @@ div.virtuemart_search input.button:focus {
   transition: all 180ms ease-in;
 }
 .vmshop-account.account-login .buttons-set .vina-button:hover {
-  background: #2eb2ca;
-  border-color: #2eb2ca;
+  background: #f93162;
+  border-color: #f93162;
   color: #fff;
 }
 #com-form-login input[type="text"],
@@ -3524,7 +3524,7 @@ div.virtuemart_search input.button:focus {
   cursor: pointer;
   background: #f5f6f8;
   border: 1px solid #eaecef;
-  color: #2eb2ca;
+  color: #f93162;
   margin-top: 0;
   line-height: 14px;
   font-size: 14px;
@@ -3537,8 +3537,8 @@ div.virtuemart_search input.button:focus {
   transition: all 180ms ease-in;
 }
 #com-form-login .vina-button:hover {
-  background: #2eb2ca;
-  border-color: #2eb2ca;
+  background: #f93162;
+  border-color: #f93162;
   color: #fff;
 }
 #com-form-login #com-form-login-remember {
@@ -9306,7 +9306,7 @@ div.order-view #com-form-order-submit {
   font-family: 'Open Sans', sans-serif;
 }
 .vina-popup .acymailing_form input.subbutton {
-  background: #2eb2ca;
+  background: #f93162;
   color: #fff;
   padding: 10px 20px;
   border: none;

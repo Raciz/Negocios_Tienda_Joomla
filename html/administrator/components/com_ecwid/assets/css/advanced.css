@@ -1,0 +1,36 @@
+.advanced-settings div.input {
+	display: inline-block;
+}
+
+.ecwid-settings.advanced-settings .pure-control-group {
+    margin-bottom: 20px;
+}
+
+.ecwid-settings.advanced-settings .pure-control-group.last {
+    margin-bottom: 0px;
+}
+
+.ecwid-settings.advanced-settings input[type=text],
+.ecwid-settings.advanced-settings select
+{
+    width: 160px;
+    height: 29px;
+    margin-right: 15px;
+}
+
+.ecwid-settings.advanced-settings input[type=text] {
+    font-size: 16px;
+}
+
+.ecwid-settings.advanced-settings .note {
+    margin-top: 15px;
+}
+
+.ecwid-settings.advanced-settings .note a {
+    color: #A0A0A0;
+    text-decoration: underline;
+}
+
+.ecwid-settings.advanced-settings .note a:hover {
+    color: #005580;
+}

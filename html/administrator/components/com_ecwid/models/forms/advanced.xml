@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+    <fieldset name="params">
+
+        <field name="useSeoLinks" type="checkbox"
+               default="1" value="1" label="COM_ECWID_ADVANCED_SEO_LINKS_LABEL" />
+
+        <field name="defaultCategory" type="ecwidDefaultCategory"
+               label="COM_ECWID_ADVANCED_DEFAULT_CATEGORY_ID_LABEL" />
+
+        <field name="ssoEnabled" type="checkbox" default=""
+               label="COM_ECWID_ADVANCED_SSO_LABEL" />
+
+        <field name="ssoKey" type="text" default=""
+               label="COM_ECWID_ADVANCED_SSO_LABEL" />
+        
+    </fieldset>
+</form>
